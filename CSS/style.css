@@ -4,21 +4,15 @@
 
 
 header{
-    background-color: blue;
+    background-color: white;
     height: 100px;
-    width:100%;
-    display: inline-block;
-    vertical-align: center;
     font-size: 50px;
+    vertical-align: middle;
 }
 #foto-logo{
     height:100%;
 }
 
-#intestazione{
-
-    background: #000;
-}
 
 #sfondo{
     background-color: green;
@@ -33,5 +27,67 @@ header{
 
     margin-top: 2%;
     margin-left: 15%;
-    background-color: #000;
+    background-color: white;
+}
+
+#add-bar{
+    padding: 10px 30px;
+}
+
+.add-button{
+    height:30px;
+    padding:5px 15px;
+    border-radius: 8px;
+    
+}
+
+.blue{
+    background-color: blue;
+    color:white;
+}
+
+.white{
+    background: white;
+    color: lightgrey;
+    height:26px;
+    
+    box-sizing: border-box;
+    border: solid lightgrey;
+    /* non funziona */
+
+}
+
+section{
+    padding: 30px 30px;
+    font-weight: 900;
+}
+
+.check{
+    height:15px;
+    width:15px;
+    font-size: 100%;
+    border: solid green;
+    color:green;
+    border-radius: 50%;
+    text-align: center;
+
+
+
+    vertical-align: middle;
+    /* perché non va?!? */
+}
+
+.cross{
+    height:15px;
+    width:15px;
+    font-size: 100%;
+    border: solid red;
+    color:red;
+    border-radius: 50%;
+    text-align: center;
+
+
+
+    vertical-align: middle;
+    /* perché non va?!? */
 }
